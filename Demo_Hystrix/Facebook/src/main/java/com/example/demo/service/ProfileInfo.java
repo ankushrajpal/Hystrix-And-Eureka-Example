@@ -25,7 +25,7 @@ public class ProfileInfo {
 	}
 
 	public Profile getFallbackProfile(String email, RestTemplate restTemplate) {
-		return new Profile("", "", null);
+		return new Profile("N/A", "N/A", null);
 	}
 
 }

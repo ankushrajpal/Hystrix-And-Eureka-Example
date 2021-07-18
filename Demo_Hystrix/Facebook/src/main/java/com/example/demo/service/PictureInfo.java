@@ -36,7 +36,7 @@ public class PictureInfo {
 	public PictureList getFallbackPictureList(String email, RestTemplate restTemplate) {
 		System.out.println("CallinggetFallbackPicture");
 		PictureList list=new PictureList();
-		list.setList(Arrays.asList(new Picture("","",null)));
+		list.setList(Arrays.asList(new Picture("N/A","N/A",null)));
 		return list;
 	}
 	
